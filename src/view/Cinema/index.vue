@@ -1,10 +1,19 @@
 <template>
-    <h1>CCCCCCC</h1>
+    <div>
+      <Header  title="喵喵影院"/>
+      <TabBar/>
+    </div>
 </template>
 
 <script>
+  import Header from '@/components/Header/index.vue'
+  import TabBar from '@/components/TabBar/index.vue'
     export default {
-        name: "index"
+        name: "Cinemaindex",
+      components:{
+        Header,
+        TabBar
+      }
     }
 </script>
 
